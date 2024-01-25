@@ -26,7 +26,7 @@ $(function () {
         var company = $('input[name="company"]').val();
         var content = $('textarea[name="content"]').val();
 
-        var msg = `名前：${names}\n大学：${university}\n学年：${grade}\n志望業界：${industry}\n志望企業：${company}\n相談内容：${content}`;
+        var msg = `【AIキャリア相談】\n名前：${names}\n大学：${university}\n学年：${grade}\n志望業界：${industry}\n志望企業：${company}\n相談内容：${content}`;
         sendText(msg);
 
         return false;

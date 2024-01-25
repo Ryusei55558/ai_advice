@@ -1,7 +1,7 @@
 $(function () {
     // 送信
     $('form').submit(function () {
-        var names = = $('input[name="names"]').val();
+        var names = = $('input[name="name"]').val();
         var university = $('input[name="university"]').val();
         var grade = $('input[name="grade"]').val();
         var industry = $('input[name="industry"]').val();
